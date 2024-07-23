@@ -1,20 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T13:38:02.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="QTwQTXFeyLlEesedmM3f" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T15:24:39.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" etag="SrO4uy9H8bKa9Z301-yt" version="24.7.1" type="github">
   <diagram name="Página-1" id="mBX1DXli7DbKJ6v1EeVo">
-    <mxGraphModel dx="674" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eMihlJpAppJxDjBYdMjB-1" value="Deporte" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="80" width="160" height="124" as="geometry" />
+        <mxCell id="eMihlJpAppJxDjBYdMjB-1" value="Deporte" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="210" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="eMihlJpAppJxDjBYdMjB-2" value="&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- nombre: string&lt;br&gt;- esEquipo: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eMihlJpAppJxDjBYdMjB-1">
-          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        <mxCell id="eMihlJpAppJxDjBYdMjB-2" value="&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- nombre: string&lt;br&gt;- esEquipo: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eMihlJpAppJxDjBYdMjB-1" vertex="1">
+          <mxGeometry y="26" width="210" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="eMihlJpAppJxDjBYdMjB-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="eMihlJpAppJxDjBYdMjB-1">
-          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        <mxCell id="eMihlJpAppJxDjBYdMjB-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="eMihlJpAppJxDjBYdMjB-1" vertex="1">
+          <mxGeometry y="90" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="eMihlJpAppJxDjBYdMjB-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="eMihlJpAppJxDjBYdMjB-1">
-          <mxGeometry y="98" width="160" height="26" as="geometry" />
+        <mxCell id="eMihlJpAppJxDjBYdMjB-4" value="&lt;div&gt;&lt;div&gt;+ getID: int&lt;/div&gt;&lt;div&gt;+ getNombre(): int&lt;/div&gt;&lt;div&gt;+ setNombre(String nombre): void&lt;/div&gt;&lt;div&gt;+ isEsEquipo() : boolean&lt;/div&gt;&lt;div&gt;+ setEsEquipo(boolean esEquipo):&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="eMihlJpAppJxDjBYdMjB-1" vertex="1">
+          <mxGeometry y="98" width="210" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="STGYGHROPqpZrpoP6dvl-1" value="Inscripcion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="STGYGHROPqpZrpoP6dvl-2" value="- campeonato" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="STGYGHROPqpZrpoP6dvl-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="STGYGHROPqpZrpoP6dvl-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="STGYGHROPqpZrpoP6dvl-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="STGYGHROPqpZrpoP6dvl-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="STGYGHROPqpZrpoP6dvl-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
